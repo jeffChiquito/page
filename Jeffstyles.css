@@ -1,0 +1,39 @@
+.mainColor{
+    background-image: linear-gradient(45deg,#eee, #0782d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 25px;
+}
+.dark{
+    background-color:#000 !important;
+    color: #fff !important;
+    display: grid;
+    place-items: center;  
+}
+div.texto{
+    font-size: 40px;
+}
+.name{
+    margin-top: 25px;
+}
+.title{
+
+    font-size: 25px;
+    color: #0782d4;
+}
+.bodyText{
+    font-size: 20px;
+    color: black;
+}
+.duo{
+    background: black;
+}
+.imgs{
+    height: auto;
+    width: 20%;
+    filter: grayscale(100%);
+}
+.links,.links:hover{
+    color: #1492e6;
+    text-decoration: none;
+}
