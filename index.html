@@ -1,126 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Jeffry Chiquito</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- custom mine styles -->
-        <link rel="stylesheet" href="Jeffstyles.css">
-        <script src="main.js"></script>
-        <!--animate--> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <!-- Icons -->
-        <script src="https://kit.fontawesome.com/bbf19eebef.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="dark" id="header">
-            <h1 class="animate__animated animate__fadeInUp animate__delay-1s name" >Jeffry Chiquito </h1>
-            <h2 class="animate__animated animate__fadeInUp animate__delay-2s mainColor">Software Engineer</h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeffry Chiquito | Senior Backend Engineer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      color: #475569;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      background: white;
+    }
+
+    .headline {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #2563eb;
+      margin-bottom: 20px;
+    }
+
+    .summary {
+      max-width: 700px;
+      font-size: 1.05rem;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+    }
+
+    .btn:focus-visible {
+      outline: 3px solid rgba(37, 99, 235, 0.35);
+      outline-offset: 2px;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      background: #2563eb;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #1d4ed8;
+    }
+
+    .btn-secondary {
+      border: 1px solid #cbd5e1;
+      color: #1e293b;
+      background: white;
+    }
+
+    .btn-secondary:hover {
+      border-color: #94a3b8;
+      background: #f8fafc;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: #475569;
+    }
+
+    footer {
+      padding: 40px 0;
+      text-align: center;
+      color: #64748b;
+    }
+
+    @media (max-width: 640px) {
+      section {
+        padding: 56px 0;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+      .headline {
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <h1>Jeffry Chiquito</h1>
+
+      <div class="headline">
+        Senior Backend Engineer | .NET | Node.js | Solution Architecture | High-Performance APIs | SQL Optimization
+      </div>
+
+      <p class="summary">
+        I design scalable backend systems, optimize critical business operations, and build secure, high-performance enterprise solutions across .NET and Node.js ecosystems. With over 8 years of experience, I specialize in backend architecture, SQL optimization, cloud systems, and technical leadership for mission-critical platforms.
+      </p>
+
+      <div class="buttons">
+        <a href="cv EN.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Download CV</a>
+        <a href="https://www.linkedin.com/in/jeffry-chiquito-518667195/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">LinkedIn</a>
+        <a href="https://github.com/jeffChiquito" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+        <a href="mailto:jeffry.chiquito@gmail.com" class="btn btn-secondary">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="container">
+      <h2>About</h2>
+      <div class="card">
+        <p>
+          Senior software engineer focused on backend architecture, enterprise systems, and performance optimization. Strong experience building scalable APIs, improving transactional systems, and leading technical decisions across collections platforms, CRM systems, and business-critical operations.
+        </p>
+        <p>
+          Specialized in .NET, Node.js, SQL Server, and cloud environments including AWS and Azure, with additional strength in project management and data-driven decision making.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <div class="container">
+      <h2>Professional Experience</h2>
+
+      <div class="card">
+        <h3>Viaro Networks — Application Support Tier 2 / Production Support</h3>
+        <p>2022 - Present</p>
+        <p>
+          Specialized in resolving high-priority production incidents for mission-critical enterprise platforms, ensuring operational continuity, transactional integrity, and system stability under high-load environments.
+        </p>
+        <p>
+          Strong experience in root cause analysis, SQL performance tuning, API debugging, and cross-functional coordination between development, infrastructure, and business teams to prevent service disruptions and improve platform reliability.
+        </p>
+      </div>
+      
+      <div class="card">
+        <h3>Viaro Networks — Software Engineer / Senior Backend Engineer</h3>
+        <p>2020 - Present</p>
+        <p>
+          Built secure enterprise applications using .NET, Angular, C#, SQL Server, and Java 8, improving support processes and delivering robust backend solutions for web management systems.
+        </p>
+        <p>Led the technical design and architecture of critical services for a collections platform, ensuring transactional integrity, API scalability, and system reliability under high-load operations.</p>
+      </div>
+
+      <div class="card">
+        <h3>Progrentis — Software Developer</h3>
+        <p>2018 - 2020</p>
+        <p>
+          Worked in R&amp;D and full stack development, delivering reporting engines, infrastructure improvements, and cloud testing across AWS, GCP, and BigQuery environments.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <div class="container">
+      <h2>Core Skills</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Backend</h3>
+          <ul>
+            <li>.NET / C#</li>
+            <li>Node.js</li>
+            <li>Java</li>
+            <li>PHP / Laravel</li>
+          </ul>
         </div>
-        <div class="container texto">
-            <div class="row"> 
-                <div class="col animate__animated animate__fadeInLeftBig">
-                    <h2 class="title">
-                        Work Experience
-                    </h2>
-                    <p class="bodyText">
-                        <b>Software Engineer, <A class="links" href="https://www.viaro.net/">Viaro Networks.</A><br></b>
-                        Developing high efficiency code focused on<br>
-                        give always optimized code, using cutting edge<br>
-                        technologies. Using agile methodologies <br>
-                        and continuos improve.
-                        <br><br>
-                        Since 2020 - Today.
-                    </p>
-                    <p class="bodyText">
-                        <b>Software Engineer and Research, <A class="links" href="https://www.progrentis.com/">Progrentis.</A><br></b>
-                        Developer on charge of an ERP system. <br>
-                        Giving support to any requirement or issue <br>
-                        using Back-End and Front-End to solve it <br>
-                        as quick as required. Learning how to work <br>
-                        on cascade methodologie.
-                        <br><br>
-                        From 2018 - 2020.
-                    </p>
-                </div>
-                <div class="col animate__animated animate__fadeInRightBig">
-                    <h2 class="title">
-                        Languages
-                    </h2>
-                    <p class="bodyText">
-                        C# <b>(3+ years)</b><br>
-                        SQL <b>(5+ years)</b><br>
-                        JavaScript <b>(3+ years)</b><br>
-                        Java <b>(3 years)</b><br>
-                        Phyton <b>(2 years)</b><br>
-                        R <b>(2 years)</b><br>                        
-                    </p>
-                    <p class="bodyText" style="vertical-align: bottom;">
-                        <br>Always learning on new cutting edge technologies and frame works,
-                        hungry of improving myself getting better solutions with new languages.
-                    </p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <hr width="100%" color="black"/>                
-            </div>
-            <div class="row">
-                <div class="col animate__animated animate__fadeInLeftBig">
-                    <h2 class="title">
-                        About me
-                    </h2>
-                    <blockquote class="bodyText">
-                        I am a person who is passionate about the constant optimization of processes and the correct implementation of work based on regulations and good practices, thus seeking the efficiency of the systems. <br><br>
-                        Passionate about continuous learning and the constant search for challenges is a vital part of my day to day.<br>
-                        I love work on getting the best efficiency code and improving myself creating different solutions based on <br>
-                        optimization and low cost processes.
-                    </blockquote>                     
-                </div>
-                <div class="col animate__animated animate__fadeInRightBig">
-                    <h2 class="title">
-                        Contact me
-                    </h2>
-                    <p class="bodyText">                        
-                        <i class="fa-regular fa-envelope" style="margin-top: 15px;"></i><A href="mailto:jeffry.chiquito@gmail.com" style="text-decoration: none; color: #000"> jeffry.chiquito@gmail.com</A><br><br>
-                        <i class="fa-brands fa-linkedin-in"></i><A href="https://www.linkedin.com/in/jeffry-chiquito-518667195/" style="text-decoration: none; color: #000">  Jeffry Chiquito</A></b><br><br>
-                        <i class="fa-brands fa-twitter"></i><A href="https://twitter.com/ChiquitoJeffry" style="text-decoration: none; color: #000">  @ChiquitoJeffry</A></b><br><br>
-                    </p>
-                </div>                         
-            </div>
-            <div  id="secImg" class="row justify-content-center" style="display:none;">
 
-                <img class="imgs" src="im.png">                
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h2 class="title">Formation</h2>
-                    <p class="bodyText">
-                        Student of Computer Science and Software Development<br>
-                        @ Galileo University.<br><br>
-                        
-                        Stutent of Master Engineer focused on Project Management and Operation Investigation in Statistics.<br>
-                        @ Galileo University.<br><br>
-
-                        Scrum Foundation Professional Certified<br>
-                        @ Certiprof.<br><br>
-
-                        Lean Six Sigma<br>
-                        @ Management & Strategy Institute.<br>
-                    </p>
-                </div>
-                <div class="col"> 
-                    <h2 class="title">What's next?</h2>
-                    <p class="bodyText">
-                        Lear more about Data Minig, and everything related to decisions taken by data.
-                        I love data bases and the way they can provide us many helpful information.<br><br>
-
-                        Learn about full JavaScript development and use that language to build multi platform applications.<br>
-                    </p>
-                </div>
-            </div>   
+        <div class="card">
+          <h3>Frontend</h3>
+          <ul>
+            <li>Angular</li>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>HTML / CSS / SASS</li>
+          </ul>
         </div>
-    </body>
+
+        <div class="card">
+          <h3>Databases</h3>
+          <ul>
+            <li>SQL Server</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Architecture</h3>
+          <ul>
+            <li>REST APIs</li>
+            <li>GraphQL</li>
+            <li>System Design</li>
+            <li>Cloud Systems</li>
+            <li>CI/CD Pipelines</li>
+            <li>AWS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <div class="container">
+      <h2>Featured Projects</h2>
+
+      <div class="card">
+        <h3>CRM Platform Development</h3>
+        <p>
+          Full-stack Laravel platform built from legacy business data, including complete data modeling, backend architecture, and responsive modern UI using TALL Stack.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Gas Station Client CRM</h3>
+        <p>
+          Designed and developed a full client-server solution from scratch, managing the full SDLC with Laravel, MySQL, Blade, and Tailwind.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <div class="container">
+      <h2>Education &amp; Certifications</h2>
+
+      <div class="card">
+        <p><strong>MSc in Project Management and Statistics</strong> — Galileo University</p>
+        <p><strong>Computer Science Engineering</strong> — Galileo University</p>
+        <p><strong>Full Stack Open Certificate</strong> — University of Helsinki</p>
+        <p><strong>Scrum Foundation Professional Certificate</strong> - CertiProf</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Jeffry Chiquito — Senior Backend Engineer</p>
+    </div>
+  </footer>
+
+</body>
 </html>
